@@ -4,8 +4,8 @@ import Layout from '../components/layout'
 export default class extends Component {
   render () {
     return (
-      <Layout>
-        <p>index</p>
+      <Layout title='首页'>
+        <p>首页</p>
       </Layout>
     )
   }

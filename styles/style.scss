@@ -1,0 +1,177 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+body, button, input, select, textarea {
+  font-size: 12px;
+  line-height: 1;
+  font-family: "微软雅黑", "黑体", "宋体" !important;
+  color: #666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+  font-style: normal;
+}
+
+code, kbd, pre, samp {
+  font-family: couriernew, courier, monospace;
+}
+
+small {
+  font-size: 12px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+img {
+  border: none
+}
+
+a:link {
+  text-decoration: none;
+  color: #666;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+a:active {
+  text-decoration: none;
+  color: #666;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+legend {
+  color: #000;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+input {
+  outline: medium;
+  border: none
+}
+
+button:focus {
+  box-shadow: none
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  position: relative
+}
+
+body {
+  overflow-x: hidden
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.wid {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.main-content {
+
+}
+
+.topbar {
+  background: #fafafa;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ddd;
+  .right {
+    img {
+      margin-right: 5px;
+    }
+    span {
+      transition: all .2s;
+      vertical-align: middle;
+    }
+  }
+}
+.main-content{
+  background: #ddd;
+  text-align:center;
+  font-size: 30px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+footer{
+  font-size: 30px;
+  background: #222;
+  height: 100px;
+  line-height: 100px;
+  color:#fff;
+  text-align:center
+}

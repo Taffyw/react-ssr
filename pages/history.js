@@ -4,8 +4,8 @@ import Layout from '../components/layout'
 export default class extends Component {
   render () {
     return (
-      <Layout>
-        <p>error</p>
+      <Layout title='企业文化'>
+        <p>企业文化</p>
       </Layout>
     )
   }
