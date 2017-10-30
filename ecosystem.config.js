@@ -27,7 +27,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:Taffyw/react-ssr.git',
       path: '/root/project/react-ssr',
-      "post-deploy": 'node -v'
+      "post-deploy": 'ls -a'
     }
   }
 };
