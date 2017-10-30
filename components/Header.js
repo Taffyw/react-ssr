@@ -12,13 +12,12 @@ export default () => (
       </div>
     </div>
     <div className="wid">
-      <ActiveLink href='/'>首页</ActiveLink>
+      <ActiveLink href='/'>首页d</ActiveLink>
       <ActiveLink href='/about'>关于我们</ActiveLink>
       <ActiveLink href='/history'>企业文化</ActiveLink>
       <ActiveLink href='/news'>新闻动态</ActiveLink>
       <ActiveLink href='/concat'>联系我们</ActiveLink>
     </div>
-
     <style jsx>{
       `
       .top{
