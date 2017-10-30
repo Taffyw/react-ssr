@@ -23,7 +23,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'root',
-      host: '47.93.50.195',
+      host: '60.205.207.145',
       ref: 'origin/master',
       repo: 'git@github.com:Taffyw/react-ssr.git',
       path: '/root/project/react-ssr',
