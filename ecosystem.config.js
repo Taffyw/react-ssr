@@ -19,6 +19,7 @@ module.exports = {
   /**
    * Deployment section
    * http://pm2.keymetrics.io/docs/usage/deployment/
+   * PATH="/root/git/nvm/versions/node/v6.11.3/bin:$PATH
    */
   deploy: {
     production: {
