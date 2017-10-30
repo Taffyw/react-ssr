@@ -4,7 +4,7 @@ export default () => (
   <div className='top'>
     <div className="topbar clearfix">
       <div className="wid">
-        <div className="left">您好，欢迎来到11111迈豪商贸！</div>
+        <div className="left">您好，飞飞！</div>
         <div className="right">
           <img src="http://13154611.s61i.faiusr.com/4/AD0Is-KiBhAEGAAgw5qpxgUo9s_1hAQwFjgS.png" alt=""/>
           <span>400-0000-000</span>
