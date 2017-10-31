@@ -15,23 +15,6 @@ const ActiveLink = ({ children, router, href }) => {
   return (
     <a className={className} href={href} onClick={handleClick}>
       {children}
-      <style jsx>{`
-      .a-link {
-        display:inline-block;
-        font-size:16px;
-        margin:0 20px;
-        line-height:40px;
-        text-align:center;
-        width:100px;
-        height:40px;
-        color:#333;
-        &:hover,&.active {
-          border-radius:20px;
-          color:#fff;
-          background-color: #1e50ae;
-        }
-      }
-    `}</style>
     </a>
   )
 }

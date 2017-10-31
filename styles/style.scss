@@ -125,45 +125,18 @@ body {
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
-
+@import "components/header";
 .wid {
   width: 1000px;
   margin: 0 auto;
 }
 
-.main-content {
-
-}
-
-.topbar {
-  background: #fafafa;
-  height: 40px;
-  line-height: 40px;
-  border-bottom: 1px solid #ddd;
-  .right {
-    img {
-      margin-right: 5px;
-    }
-    span {
-      transition: all .2s;
-      vertical-align: middle;
-    }
-  }
-}
 .main-content{
-  background: #ddd;
-  text-align:center;
-  font-size: 30px;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 50px auto;
+
 }
 .left {
   float: left;
 }
-
 .right {
   float: right;
 }

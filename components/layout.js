@@ -12,11 +12,11 @@ export default ({ children, title = '默认标题' }) => (
       {/*<link rel='stylesheet' href='/static/style.css' />*/}
     </Head>
     <TopMenu/>
-    <div className="main-content wid">
+    <div className="main-content">
       { children }
     </div>
-    <footer>
-      {'我是Footer'}
-    </footer>
+    {/*<footer>*/}
+      {/*{'我是Footer'}*/}
+    {/*</footer>*/}
   </div>
 )
