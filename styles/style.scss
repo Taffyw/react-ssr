@@ -125,12 +125,12 @@ body {
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
-@import "components/header";
 .wid {
   width: 1000px;
   margin: 0 auto;
 }
-
+@import "components/header";
+@import "components/index";
 .main-content{
 
 }
@@ -141,10 +141,17 @@ input:-webkit-autofill {
   float: right;
 }
 footer{
-  font-size: 30px;
-  background: #222;
-  height: 100px;
-  line-height: 100px;
-  color:#fff;
-  text-align:center
+  background: #f2f2f2;
+  height: 140px;
+  overflow:hidden;
+  .tel{
+    font-size: 20px;
+    margin-top: 40px;
+    color: rgb(30, 80, 174);
+  }
+  .copyright{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+  }
 }

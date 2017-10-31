@@ -15,8 +15,13 @@ export default ({ children, title = '默认标题' }) => (
     <div className="main-content">
       { children }
     </div>
-    {/*<footer>*/}
-      {/*{'我是Footer'}*/}
-    {/*</footer>*/}
+    <footer>
+      <div className="wid">
+        <div className="tel"><img src="http://13154611.s61i.faiusr.com/4/AD0Is-KiBhAEGAAg3PWoxgUo0Zz0vgQwJjgg.png" alt=""/>400-400-0000</div>
+        <div className="copyright">
+          ©2017 迈豪商贸 版权所有
+        </div>
+      </div>
+    </footer>
   </div>
 )

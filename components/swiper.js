@@ -9,7 +9,10 @@ class Swiper extends React.Component {
     super(props);
     this.state={
       index:0,
-      img:['http://13154611.s61i.faiusr.com/2/AD0Is-KiBhACGAAglbXDxgUoyviR5QUwgA84iAQ.jpg','http://13154611.s61i.faiusr.com/2/AD0Is-KiBhACGAAgiJa9xgUokpqOaDCADziIBA.jpg']
+      img:[
+        'http://13154611.s61i.faiusr.com/2/AD0Is-KiBhACGAAglbXDxgUoyviR5QUwgA84iAQ.jpg',
+        'http://13154611.s61i.faiusr.com/2/AD0Is-KiBhACGAAgiJa9xgUokpqOaDCADziIBA.jpg'
+      ]
     }
   }
   onSwiperChange(index){
