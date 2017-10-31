@@ -14,9 +14,9 @@ app.prepare()
       return app.render(req, res, '/', req.query)
     })
 
-    server.get('/about', (req, res) => {
-      return app.render(req, res, '/about', req.query)
-    })
+    // server.get('/about', (req, res) => {
+    //   return app.render(req, res, '/about', req.query)
+    // })
     server.get('/error', (req, res) => {
       console.log(app.render(req, res, '/', req.query));
       return app.render(req, res, '/', req.query)
