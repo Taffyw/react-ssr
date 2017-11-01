@@ -28,7 +28,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:Taffyw/react-ssr.git',
       path: '/root/project/react-ssr',
-      "post-deploy": 'source ~/git/nvm/nvm.sh && node -v && cnpm i && npm run build && pm2 reload ecosystem.config.js --env production'
+      "post-deploy": 'node -v && cnpm i && npm run build && pm2 reload ecosystem.config.js --env production'
     }
   }
 };
