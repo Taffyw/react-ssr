@@ -101,7 +101,14 @@ table {
 img {
   vertical-align: middle;
 }
-
+.id{
+  font-size: 30px;
+  color: #1e50ae;
+}
+.name{
+  font-size: 20px;
+  color: #000000;
+}
 .clearfix:before, .clearfix:after {
   display: table;
   line-height: 0;
