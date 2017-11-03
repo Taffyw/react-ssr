@@ -25,7 +25,8 @@ export default class extends Component {
         <p>关于我们</p>
         {user.map((item,index)=>{
           return (
-            <div>
+            <div className='wid'>
+              <div>用w户列表</div>
               <div className="id">{item._id}</div>
               <div className="name">{item.name}</div>
             </div>
