@@ -5,7 +5,7 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "deploy": "pm2 deploy ecosystem.config.js production"
+    "deploy": "git add . && git commit -m 'v1.0.0' && git push && pm2 deploy ecosystem.config.js production"
   },
   "dependencies": {
     "autoprefixer": "7.1.5",

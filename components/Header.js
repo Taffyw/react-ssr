@@ -12,7 +12,7 @@ export default () => (
       </div>
     </div>
     <div className="menu-bar clearfix">
-      <div className="logo"><h1>迈豪商贸</h1></div>
+      <div className="logo"><h1>迈豪商贸2</h1></div>
       <div className="right-bar">
         <ActiveLink href='/'>首页</ActiveLink>
         <ActiveLink href='/about'>关于我们</ActiveLink>
