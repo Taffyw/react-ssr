@@ -6,12 +6,19 @@ const dev = process.env.NODE_ENV !== 'production'
 const app = next({dev})
 const handle = app.getRequestHandler()
 const mongoose = require('mongoose');
-const DB_URL = 'mongodb://localhost:27017/app';
+const DB_URL = 'mongodb://60.205.207.145:27017/app';
 const USER = require('./server/model/user')
+var allowCrossDomain = function(req, res, next) {
+  res.header('Access-Control-Allow-Origin', 'http://localhost:9080');
+  res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  res.header('Access-Control-Allow-Credentials','true');
+  next();
+};
 app.prepare()
   .then(() => {
     const server = express()
-
+    server.use(allowCrossDomain);
     server.get('/', (req, res) => {
       return app.render(req, res, '/', req.query)
     })
